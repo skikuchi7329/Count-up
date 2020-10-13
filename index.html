@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>テキストカウンター</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <form>
+      <div class="form-group">
+          <label>文字数カウントアップ</label>
+          <textarea class="form-control" rows="5" onkeyup="count_up(this);"></textarea>
+          <span id="count1" class="float-right">0</span>
+      </div>
+    </form>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
